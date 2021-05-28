@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="end.css">
+
+</head>
+<body>
+  <h1>Decentralised Voting System</h1>
+  <header>
+
+  <nav>
+    <a href="#">
+      <div id="btn1" class="button">
+        <h1>HOME</h1>
+      </div>
+    </a>
+    
+    <a href="#">
+      <div id="btn2" class="button">
+        <h1>LOGIN</h1>
+      </div>
+    </a>
+    
+    <a href="#">
+      <div id="btn3" class="button">
+        <h1>TEAM</h1>
+      </div>
+    </a>
+  </nav>
+</header>
+<!-- partial:index.partial.html -->
+<div class="login-box">
+    <h2>Thank You for Voting</h2>
+    <div id="login_div" class="main-div">
+      <form>
+    </div>
+    <a href="/Users/sumukh/Election/Vote-Chain Backup/Votechain/Home.html" onclick="logout()">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+       Logout
+    </a>
+  </form>
+  </div>
+</div>
+<div id="user_div" class="loggedin-div">
+  <p id="user_para"></p> 
+</div>
+
+<!-- partial -->
+
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAeue4vB138oKp6Eps4mpXIoBkAM2i0Cws",
+      authDomain: "fir-web-login-8b7c5.firebaseapp.com",
+      databaseURL: "https://fir-web-login-8b7c5.firebaseio.com",
+      projectId: "fir-web-login-8b7c5",
+      storageBucket: "fir-web-login-8b7c5.appspot.com",
+      messagingSenderId: "301701306998"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="End.js"></script>
+  
+</body>
+</html>
