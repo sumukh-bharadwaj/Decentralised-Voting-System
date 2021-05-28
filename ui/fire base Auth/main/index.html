@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Voting Page</title>
+ <!-- <link href='https://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet' type='text/css'> -->
+ <!-- <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css"> -->
+ <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <header>
+    <nav>
+      <a href="#">
+        <div id="btn1" class="button">
+          <h3>HOME</h3>
+        </div>
+      </a>
+      
+      <a href="#">
+        <div id="btn2" class="button">
+          <h3>LOGIN</h3>
+        </div>
+      </a>
+      
+      <a href="#">
+        <div id="btn3" class="button">
+          <h3>TEAM</h3>
+        </div>
+      </a>
+    </nav>
+  </header>
+
+
+
+<div class="login-box">
+  <h1>Decentrslised Voting System</h1>
+<!-- <div class="container"> -->
+ <!-- <div class="table-responsive"> -->
+
+    <table class="table table-hover">
+
+      <thead>
+        <tr class="heads">
+            <th>Election Symbol</th>
+            <th>Party</th>
+            <th>Candidate Name</th>
+        </tr>
+      </thead>
+
+       <tbody>
+            <tr>
+              <td>
+                <img src="images/nazi.png" alt=" "height="42" width="42">
+              </td>
+              <td>Communist Party</td>
+              <td>Rahul</td>
+              
+            </tr>
+
+            <tr>
+              <td>
+                <img src="images/Ass.png" alt=" "height="42" width="42">
+              </td>
+              <td>Republic Party</td>
+              <td>Narendra</td>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="images/Viking.png" alt=" "height="42" width="42">
+              </td>
+              <td>Democratic Party</td>
+              <td>Arvind</td>
+            </tr>
+       </tbody>
+    </table>
+  <!-- </div> -->
+<br>
+<input type="text" placeholder="Enter Candidate Name" id="candidate">
+<a href="#" onclick="voteForCandidate()"  type="button" class="" >
+     <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      VOTE
+    </a> 
+</div>
+
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.37/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
